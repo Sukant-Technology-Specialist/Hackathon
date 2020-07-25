@@ -1,0 +1,54 @@
+<html>
+<head>
+<h1>Tower of Hanoi</h1>
+<title>
+Tower of Hanoi
+</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap" id="tower-app">
+	<div class="info-screen">		
+		<button type="button" class="button playgame">
+			Play Towers of Hanoi
+		</button>
+	</div>
+	<div class="play-screen hidden">
+		<div class="tower-wrap">
+			<div class="tower">
+				<div class="disc-container"></div>
+			</div>
+			<div class="tower">
+				<div class="disc-container"></div>
+			</div>
+			<div class="tower">
+				<div class="disc-container"></div>
+			</div>
+		</div>
+		<span class="moveCounter">Moves: </span>
+		
+		<h2 class="doneMessage hidden">Congratulations! you did it <span class="multiple hidden">x times </span>in <span class="movesShower">x</span> moves.<span class="minimum hidden"> The best possible score!</span></h2>
+		
+		<div class="input">
+			<span>Enter Your Difficulty Level : </span>
+			<select class="difficulty">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3" selected>3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</select>
+			<br/>
+			<button type="button" class="button helpme">Start New Game</button>
+			<button type="button" class="button playnew">Reset</button>
+		</div>
+	</div>
+</div>
+<script src="final.js"></script>
+</body>
+</html>
